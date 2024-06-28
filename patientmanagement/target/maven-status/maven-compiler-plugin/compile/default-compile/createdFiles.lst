@@ -1,0 +1,4 @@
+tech\patientmanagement\model\Patient.class
+tech\patientmanagement\repository\PatientRepository.class
+tech\patientmanagement\PatientmanagementApplication.class
+tech\patientmanagement\controller\PatientController.class
