@@ -55,6 +55,13 @@ public class PatientController {
         return "Working.....";
     }
 
+
+    @GetMapping("/testDate")
+    public String testDateEndPoint(){
+        return "date endpoint .....";
+    }
+
+
     @DeleteMapping("/patient/{patientId}")
     public String deletePatient(@PathVariable ("patientId") int patientId){
         try {
