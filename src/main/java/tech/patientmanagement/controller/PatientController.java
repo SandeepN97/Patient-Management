@@ -52,12 +52,12 @@ public class PatientController {
 
     @GetMapping("/test")
     public String testEndPoint(){
-        return "Working.....";
+        return "Working............";
     }
 
 
     @GetMapping("/testDate")
-    public String testDateEndPoint(){
+    public String testDateEndPointName(){
         return "date endpoint .....";
     }
 
