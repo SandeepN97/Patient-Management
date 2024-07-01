@@ -52,7 +52,7 @@ public class PatientController {
 
     @GetMapping("/test")
     public String testEndPoint(){
-        return "Working....";
+        return "Working.....";
     }
 
     @DeleteMapping("/patient/{patientId}")
